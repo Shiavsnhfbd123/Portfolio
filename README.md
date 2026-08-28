@@ -1,40 +1,38 @@
 # Shivansh Aggarwal — Portfolio
 
-A modern, responsive personal portfolio designed to present my skills, education, projects, and contact information in a clear and professional way.
+A modern, responsive personal portfolio presenting my skills, education, projects, and contact information in a clear and professional way.
 
 ## What I Used to Build This Portfolio
 
-- **React 19** for the user interface
-- **TypeScript** for structured and reliable code
-- **Tailwind CSS v4** and custom CSS for styling
-- **Vite and Vinext** for development and production builds
-- **CSS Grid and Flexbox** for responsive layouts
+- **Next.js** and **React 19** for the application and user interface
+- **TypeScript** for structured, reliable code
+- **Tailwind CSS v4** and custom CSS for the visual design
+- **CSS Grid** and **Flexbox** for responsive layouts
 - **Intersection Observer** for lightweight scroll-reveal effects
 - **Git** for source control
 
 ## How I Made This Portfolio
 
-1. I organized my resume information into clear sections: About, Work, Projects, Skills, Education, and Contact.
-2. I created a dark premium visual system with soft violet, cyan, and lime accent colors.
-3. I used a large hero section to make my name and professional identity easy to notice.
-4. I built reusable cards and responsive grids for skills, education, and projects.
-5. I added smooth scrolling, active navigation highlighting, a scroll-progress bar, subtle reveal animations, and gentle hover/tilt effects.
-6. I kept every animation lightweight and added reduced-motion support for a more accessible experience.
-7. I tested the production build to confirm that the portfolio renders correctly.
+1. I organized my resume information into clear About, Work, Projects, Skills, Education, and Contact sections.
+2. I designed a premium visual system with violet, cyan, and lime accent colors.
+3. I created reusable cards and responsive layouts for projects, skills, and education.
+4. I added smooth scrolling, active navigation highlighting, a scroll-progress bar, and subtle reveal effects.
+5. I kept interactions lightweight, including focused hover states, a limited card tilt effect, and reduced-motion support.
+6. I verified the production build so the portfolio is ready for Vercel deployment.
 
 ## Main Features
 
-- Responsive design for desktop, tablet, and mobile devices
+- Responsive desktop, tablet, and mobile design
 - Sticky navigation with active-section highlighting
-- Smooth scrolling between sections
-- Scroll-reveal transitions and subtle background motion
-- Interactive project and skill cards
-- Accessible keyboard focus styles
-- Performance-friendly animations with reduced-motion support
+- Smooth scrolling and subtle scroll-reveal transitions
+- Professional project-card previews and hover interactions
+- Downloadable PDF resume with detailed project descriptions
+- Accessible keyboard focus styles and reduced-motion support
+- No database, server API, or external environment variables required
 
 ## Run Locally
 
-**Requirement:** Node.js 22.13.0 or later.
+**Requirement:** Node.js 22.x.
 
 ```bash
 npm install
@@ -56,7 +54,7 @@ app/
   page.tsx              # Portfolio content and layout
   PortfolioEffects.tsx  # Scroll, reveal, navigation, and hover interactions
   globals.css           # Responsive visual design and animations
-public/                 # Static assets
-tests/                  # Render checks
+public/
+  og.png                # Social sharing preview image
+  Shivansh_Aggarwal_Resume.pdf  # Downloadable resume
 ```
-#

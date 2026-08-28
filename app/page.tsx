@@ -129,8 +129,13 @@ export default function Home() {
             <a className="button button-primary" href="#work" data-magnetic>
               Explore my work <span aria-hidden="true">↘</span>
             </a>
-            <a className="button button-ghost" href="mailto:Shivanshfbd123@gmail.com">
-              Let&apos;s build together
+            <a
+              className="button button-resume"
+              href="/Shivansh_Aggarwal_Resume.pdf"
+              download="Shivansh_Aggarwal_Resume.pdf"
+              aria-label="Download Shivansh Aggarwal resume as a PDF"
+            >
+              Download Resume <span aria-hidden="true">↓</span>
             </a>
           </div>
           <div className="social-row" aria-label="Social links">
@@ -230,22 +235,22 @@ export default function Home() {
         </article>
 
         <div className="project-details">
-          <article className="tilt-card" data-reveal data-tilt>
+          <article className="tilt-card" data-reveal>
             <span>01</span>
             <h3>Structured data, built for discovery</h3>
             <p>Designed REST APIs and relational models for books, authors, categories, students, and loan records—then added search, ISBN inventory, cover uploads, dashboards, and borrowing history.</p>
           </article>
-          <article className="tilt-card" data-reveal data-tilt>
+          <article className="tilt-card" data-reveal>
             <span>02</span>
             <h3>Security at the centre</h3>
             <p>Implemented JWT token refresh, protected React routes, and server-enforced role-based permissions for administrators and active student accounts.</p>
           </article>
-          <article className="tilt-card" data-reveal data-tilt>
+          <article className="tilt-card" data-reveal>
             <span>03</span>
             <h3>Real-world lending logic</h3>
             <p>Engineered transactional issue and return workflows that prevent duplicate or out-of-stock loans, update inventory automatically, and calculate configurable overdue fines.</p>
           </article>
-          <article className="tilt-card" data-reveal data-tilt>
+          <article className="tilt-card" data-reveal>
             <span>04</span>
             <h3>Tested where it counts</h3>
             <p>Added 8 Django API tests covering authentication, validation, permissions, protected deletion, and demo-account safeguards.</p>
@@ -303,7 +308,7 @@ export default function Home() {
         </div>
         <div className="skills-grid">
           {skillGroups.map((group) => (
-            <article className="skill-card tilt-card" key={group.title} data-reveal data-tilt>
+            <article className="skill-card tilt-card" key={group.title} data-reveal>
               <p>{group.title}</p>
               <div>
                 {group.items.map((item) => <span key={item}>{item}</span>)}
@@ -319,21 +324,21 @@ export default function Home() {
           <h2>Learning across<br />two frontiers.</h2>
         </div>
         <div className="education-grid">
-          <article className="education-card degree-card tilt-card" data-reveal data-tilt>
+          <article className="education-card degree-card tilt-card" data-reveal>
             <div><span>01</span><span>2025 — 2029</span></div>
             <h3>B.Tech in Computer Science Engineering</h3>
             <p>Shri Vishwakarma Skill University (SVSU)</p>
             <small>Village Dudhola, District Palwal, Haryana 121102, India</small>
             <i>Core computer science, systems thinking, and software development.</i>
           </article>
-          <article className="education-card degree-card tilt-card" data-reveal data-tilt>
+          <article className="education-card degree-card tilt-card" data-reveal>
             <div><span>02</span><span>2025 — 2029</span></div>
             <h3>Bachelor of Science in Artificial Intelligence and Cyber Security</h3>
             <p>Indian Institute of Technology Patna (IIT Patna)</p>
             <small>Bihta, Patna, Bihar 801106, India</small>
             <i>Hybrid programme focused on AI and cybersecurity.</i>
           </article>
-          <article className="education-card school-card tilt-card" data-reveal data-tilt>
+          <article className="education-card school-card tilt-card" data-reveal>
             <div><span>03</span><span>2024 — 2025</span></div>
             <h3>Class XII · Science Stream</h3>
             <p>Government Senior Model Sanskriti Secondary School</p>
@@ -354,7 +359,7 @@ export default function Home() {
         </div>
         <div className="footer-bottom" data-reveal>
           <span>Faridabad, Haryana · India</span>
-          <span>Built with React 19 · TypeScript · Tailwind CSS v4</span>
+          <span>Built with Next.js · React 19 · TypeScript · Tailwind CSS v4</span>
           <span>© {new Date().getFullYear()} Shivansh Aggarwal</span>
         </div>
       </footer>

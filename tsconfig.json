@@ -30,18 +30,13 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "next.config.ts",
     ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-  "node_modules",
-  "db",
-  "worker",
-  "examples",
-  "drizzle.config.ts",
-  "vite.config.ts"
-]
+    "node_modules"
+  ]
 }
