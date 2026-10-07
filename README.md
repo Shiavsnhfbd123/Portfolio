@@ -1,23 +1,8 @@
-<div align="center">
-
 # Shivansh Aggarwal
 
 ### Full-Stack Developer · Computer Science Student
 
-<p>
-  A refined, responsive portfolio built to present my work, technical skills, education, and contact details with clarity and personality.
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Next.js-16.2.6-0b1020?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-19-151a31?style=for-the-badge&logo=react&logoColor=61dafb" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-5.9-172554?style=for-the-badge&logo=typescript&logoColor=3178c6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-v4-083344?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8" alt="Tailwind CSS" />
-</p>
-
-</div>
-
-![Portfolio social preview](./public/og.png)
+[Portfolio social preview](https://chatgpt.com/c/public/og.png)
 
 ## Overview
 
@@ -26,7 +11,7 @@ This is my personal developer portfolio: a single-page experience designed aroun
 ## Highlights
 
 | Experience               | Details                                                                                                           |
-| :----------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | **Responsive by design** | Crafted for desktop, tablet, and mobile screens.                                                                  |
 | **Polished interaction** | Smooth scrolling, active navigation, subtle reveals, hover states, and focused card tilt.                         |
 | **Project-focused**      | Showcases a full-stack Library Management System, a Canvas landing page, a calculator, and an internship matcher. |
@@ -57,7 +42,11 @@ The portfolio uses a dark, editorial visual language with violet, cyan, and lime
 
 ## Live Demo
 
-**https://portfolio-two-teal-986qx5watq.vercel.app/**
+[**https://portfolio-two-teal-986qx5watq.vercel.app/**](https://portfolio-two-teal-986qx5watq.vercel.app/)
+
+## GitHub Repository
+
+[**https://github.com/Shiavsnhfbd123/Portfolio**](https://github.com/Shiavsnhfbd123/Portfolio)
 
 ## Run Locally
 
@@ -73,6 +62,7 @@ git clone <your-repository-url>
 cd Portfolio
 npm install
 npm run dev
+
 ```
 
 Open the local address printed in your terminal, usually `http://localhost:3000`.
@@ -82,6 +72,7 @@ Open the local address printed in your terminal, usually `http://localhost:3000`
 ```bash
 npm run build
 npm run start
+
 ```
 
 The production build is configured for a standard Next.js deployment.
@@ -110,6 +101,7 @@ app/
 public/
 ├── og.png                           # Social-sharing preview image
 └── Shivansh_Aggarwal_Resume.pdf     # Downloadable resume
+
 ```
 
 ## Portfolio Content
@@ -128,8 +120,4 @@ The site presents:
 * **LinkedIn:** [shivanshhr123](https://www.linkedin.com/in/shivanshhr123/)
 * **GitHub:** [Shiavsnhfbd123](https://github.com/Shiavsnhfbd123)
 
-<div align="center">
-
 Built with care by **Shivansh Aggarwal**
-
-</div>
