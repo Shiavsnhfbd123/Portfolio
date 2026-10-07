@@ -25,42 +25,46 @@ This is my personal developer portfolio: a single-page experience designed aroun
 
 ## Highlights
 
-| Experience | Details |
-| :-- | :-- |
-| **Responsive by design** | Crafted for desktop, tablet, and mobile screens. |
-| **Polished interaction** | Smooth scrolling, active navigation, subtle reveals, hover states, and focused card tilt. |
-| **Project-focused** | Showcases a full-stack Library Management System, a Canvas landing page, a calculator, and an internship matcher. |
-| **Accessible** | Keyboard focus styles and reduced-motion support are included. |
-| **Ready to share** | Includes Open Graph metadata, a social preview image, and a downloadable PDF resume. |
+| Experience               | Details                                                                                                           |
+| :----------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **Responsive by design** | Crafted for desktop, tablet, and mobile screens.                                                                  |
+| **Polished interaction** | Smooth scrolling, active navigation, subtle reveals, hover states, and focused card tilt.                         |
+| **Project-focused**      | Showcases a full-stack Library Management System, a Canvas landing page, a calculator, and an internship matcher. |
+| **Accessible**           | Keyboard focus styles and reduced-motion support are included.                                                    |
+| **Ready to share**       | Includes Open Graph metadata, a social preview image, and a downloadable PDF resume.                              |
 
 ## Built With
 
-- **Next.js 16** — application framework and production build tooling
-- **React 19** — component-based user interface
-- **TypeScript** — reliable, typed application code
-- **Tailwind CSS v4** and custom CSS — responsive layouts, visual design, and animation
-- **Intersection Observer** — lightweight scroll-reveal and active-section interactions
-- **CSS Grid & Flexbox** — adaptive page structure
-- **Git & GitHub** — source control and version history
-- **Vercel** — production deployment
+* **Next.js 16** — application framework and production build tooling
+* **React 19** — component-based user interface
+* **TypeScript** — reliable, typed application code
+* **Tailwind CSS v4** and custom CSS — responsive layouts, visual design, and animation
+* **Intersection Observer** — lightweight scroll-reveal and active-section interactions
+* **CSS Grid & Flexbox** — adaptive page structure
+* **Git & GitHub** — source control and version history
+* **Vercel** — production deployment
 
 ## Design Approach
 
 The portfolio uses a dark, editorial visual language with violet, cyan, and lime accents. Rather than adding heavy visual effects, the interface uses a carefully selected set of lightweight interactions:
 
-- Sticky navigation with active-section highlighting
-- Smooth anchor scrolling and a reading-progress indicator
-- Scroll-triggered reveal animations with reduced-motion support
-- Professional project-card hover, lift, and limited 3D tilt effects
-- Soft gradients, ambient glows, and refined section transitions
-- A downloadable PDF resume directly from the hero section
+* Sticky navigation with active-section highlighting
+* Smooth anchor scrolling and a reading-progress indicator
+* Scroll-triggered reveal animations with reduced-motion support
+* Professional project-card hover, lift, and limited 3D tilt effects
+* Soft gradients, ambient glows, and refined section transitions
+* A downloadable PDF resume directly from the hero section
+
+## Live Demo
+
+**https://portfolio-two-teal-986qx5watq.vercel.app/**
 
 ## Run Locally
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) **22.x** or later
-- npm (included with Node.js)
+* [Node.js](https://nodejs.org/) **22.x** or later
+* npm (included with Node.js)
 
 ### Installation
 
@@ -112,17 +116,17 @@ public/
 
 The site presents:
 
-- Full-stack skills across React, Python, FastAPI, Django REST Framework, Tailwind CSS, MongoDB, and AI/RAG workflows
-- A role-based Library Management System built with React, Django REST, JWT, and SQLite
-- Additional front-end and collaborative projects
-- Educational background in Computer Science, AI, and Cyber Security
-- Direct contact details and professional social links
+* Full-stack skills across React, Python, FastAPI, Django REST Framework, Tailwind CSS, MongoDB, and AI/RAG workflows
+* A role-based Library Management System built with React, Django REST, JWT, and SQLite
+* Additional front-end and collaborative projects
+* Educational background in Computer Science, AI, and Cyber Security
+* Direct contact details and professional social links
 
 ## Contact
 
-- **Email:** Shivanshfbd123@gmail.com
-- **LinkedIn:** [shivanshhr123](https://www.linkedin.com/in/shivanshhr123/)
-- **GitHub:** [Shiavsnhfbd123](https://github.com/Shiavsnhfbd123)
+* **Email:** [Shivanshfbd123@gmail.com](mailto:Shivanshfbd123@gmail.com)
+* **LinkedIn:** [shivanshhr123](https://www.linkedin.com/in/shivanshhr123/)
+* **GitHub:** [Shiavsnhfbd123](https://github.com/Shiavsnhfbd123)
 
 <div align="center">
 
